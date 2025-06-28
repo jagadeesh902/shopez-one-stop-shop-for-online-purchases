@@ -1,0 +1,11 @@
+/* src/pages/ProductDetailsPage.css */
+
+button.btn {
+  min-width: 150px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+button.btn:hover {
+  transform: scale(1.05);
+}

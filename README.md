@@ -1,4 +1,3 @@
-
 # ShopEZ: One-Stop Shop for Online Purchases
 
 *ShopEZ* is your ultimate destination for seamless and personalized online shopping. Whether you're a customer looking for the perfect product or a seller aiming to streamline operations, ShopEZ offers a comprehensive platform designed for convenience, performance, and growth.

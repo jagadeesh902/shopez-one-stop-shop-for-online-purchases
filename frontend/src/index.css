@@ -1,0 +1,91 @@
+/* Background styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  /* light teal to white */
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff !important;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+/* Card styles */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image */
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Search bar styling */
+.search-bar {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #007bff;
+}
+
+/* Category and sorting */
+.sort-filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Product section header */
+.product-section-title {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+/* Animate.css (Optional override speed) */
+.animate__animated {
+  --animate-duration: 0.7s;
+}
